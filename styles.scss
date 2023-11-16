@@ -1,0 +1,126 @@
+$var1: #2F303A;
+$var2: #FFFFFF;
+$var3: #2196F3;
+$var4: #212121;
+
+.header {
+  margin-top: 32px;
+  &_logo {
+    margin-left: 215px;
+  }
+}
+
+hr {
+  width: 3000px;
+  height: 5px;
+}
+
+.menu-list {
+  margin-top: -20px;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  color: black;
+  cursor: pointer;
+  gap: 50px;
+  list-style: none;
+
+  .menu-item {
+    font-size: 14px;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
+
+.contacts {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -50px;
+  margin-right: 215px;
+  gap: 50px;
+  cursor: pointer;
+
+  &-item:hover {
+    color: blue;
+  }
+}
+
+.section {
+  height: 600px;
+  background: $var1;
+
+  &2 {
+    margin-top: 92px;
+    display: flex;
+    gap: 30px;
+
+    &-item {
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+
+  &3 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+
+    &_word {
+      display: flex;
+      position: absolute;
+      top: 1300px;
+      gap: 220px;
+      color: white;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.main_word {
+  margin-top: 200px;
+  width: 696px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 44px;
+  color: $var2;
+}
+
+.button {
+  border-radius: 4px;
+  background: $var3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 216px;
+  height: 50px;
+  margin-left: 1160px;
+
+  &_link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
+.main-word {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 118px;
+  font-size: 36px;
+  color: $var4;
+}
+
+.footer {
+  display: flex;
+  background: $var1;
+  height: 252px;
+
+  &_container {
+    margin-left: 215px;
+    margin-top: 60px;
+  }
+}
